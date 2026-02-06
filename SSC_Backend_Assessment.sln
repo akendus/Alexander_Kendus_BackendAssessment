@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "part1-api", "part1-api", "{4BD87FE5-26BF-B11A-FF48-1E0EA96B45F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EF41C46D-BC27-D4B6-55E6-ECE2E12A22C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrics", "part1-api\src\Metrics\Metrics.csproj", "{3F5AF911-006C-6EC7-4FBF-09FB2FED2ABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F5AF911-006C-6EC7-4FBF-09FB2FED2ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5AF911-006C-6EC7-4FBF-09FB2FED2ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5AF911-006C-6EC7-4FBF-09FB2FED2ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5AF911-006C-6EC7-4FBF-09FB2FED2ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF41C46D-BC27-D4B6-55E6-ECE2E12A22C2} = {4BD87FE5-26BF-B11A-FF48-1E0EA96B45F6}
+		{3F5AF911-006C-6EC7-4FBF-09FB2FED2ABB} = {EF41C46D-BC27-D4B6-55E6-ECE2E12A22C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {94A316F6-9D03-41CF-8FDE-F245D1E20C78}
+	EndGlobalSection
+EndGlobal
